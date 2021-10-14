@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TicTacToeServer" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAEABAAAACAAAAAAgABAAABAAAAAAEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TicTacToeNetworking\TicTacToeServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicTacToeGameServer">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAIAACBAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TicTacToeNetworking\TicTacToeGameServer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_engine" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TicTacToeGameEngine" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAABAAAAAKAAAAAAAAAAgAACEAAhAAQAAA=</HashCode>
+      <FileName>Assets\Scripts\TicTacToeEngine\TicTacToeGameEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TicTacToeClientBehaviour" Collapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAAAAAEEAFAYAQIAAAEgCBAAAAAAAAAAAAMA=</HashCode>
+      <FileName>Assets\Scripts\TicTacToeNetworking\TicTacToeClientBehaviour.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_app" />
+      <Field Name="_board" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TicTacToeClient">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAARAAAAEAAgAAAAAAgAAAAAhAIAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TicTacToeNetworking\TicTacToeClient.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_client" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NetworkServer&lt;T&gt;" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAAAGCiAAAAACAAgAAAAAAAAIAAJAAgAAAIAAA=</HashCode>
+      <FileName>Assets\Scripts\NetLib\NetworkServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkClient" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCAAwQCAAAkABAGAAAAAAAAgAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\NetLib\NetworkClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkClientCollection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAQAAAABAAACAAAAQCAAAAAIAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\NetLib\NetworkClientCollection.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_clients" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AppController" Collapsed="true">
+    <Position X="2.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACEAAAgoQAQAAAAAQABAALACCAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Scripts\UI\AppController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_server" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BoardController" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAxQAISACBAIAADACAAAEAMgAQAABAEEAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TicTacToe\BoardController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Collections.Generic.List&lt;T&gt;" Collapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
